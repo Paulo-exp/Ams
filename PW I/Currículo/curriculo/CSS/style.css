@@ -54,8 +54,7 @@ h1{
     color: var(--cor-branca);
 }
 
-span a{
-
+nav a{
     text-decoration: nome;
     color: var(--cor-branca);
     font-size: 30px;
