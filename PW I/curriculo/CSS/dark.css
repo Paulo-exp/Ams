@@ -16,16 +16,28 @@
     --cor-branca: #fffafa;
     --cor-borda: #444;
     --cor-sombra: #000;
+
+    --bg-image: url(../Imagens/pngtree-business-office-dark-background-picture-image_2502836.png.jpg);
+     --overlay-opacity: 0.7;
+
  }
 
  * {
    transition: all 0.5s ease;
  }
 
- body {
-   background: var(--cor-fundo);
-   color: var(--cor-texto);
- }
+ .dark.html,
+
+.dark body 
+   background: {
+   linear-gradient(
+    rgba(0, 0, 0, var(--overlay-opacity)),
+    rgba(0, 0, 0, var(--overlay-opacity))
+   ),
+   var(--bg-image) no-repeat center center fixed;
+   
+   background-size: cover ;
+}
 
  header {
    background: var(--cor-header);
