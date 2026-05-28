@@ -28,8 +28,10 @@
 
  .dark.html,
 
-.dark body 
-   background: {
+.dark body{
+
+
+   background: 
    linear-gradient(
     rgba(0, 0, 0, var(--overlay-opacity)),
     rgba(0, 0, 0, var(--overlay-opacity))
