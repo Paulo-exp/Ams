@@ -1,0 +1,16 @@
+:root {
+    --cor-primaria: #380b61;
+    --cor-secundaria: #56429d;
+    --cor-hover: #ccbbff;
+    --cor-fundo: #F0F8FF;
+    --cor-formulario: #E6E6FA;
+    --cor-focus: #E0E0F8;
+    --espacamento-pequeno; 0.3em;
+    --espacamento-medio; 1em
+    --espacamento-grande; 1.5em;
+    --tamanho-max-form: 500px;
+    --tamanho-max-main: 600px;
+    --raio-borda: 10px;
+
+
+}
