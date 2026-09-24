@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Formulario de contato Dev">
+    <meta name="keywords" content="Html , Css, Formulario , contato">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Cadastro dev</title>
+</head>
+<body>
+    <main>
+        <div class="class header">
+            <h1 id="titulo">Cadastro Dev</h1>
+            <p id ="subtitulo">Preencha as informações</p>
+        </div>
+        
+        <form action="#" method="post" autocomplete="off">
+
+                <fieldset class="grupo ">
+                    <div class="campo">
+                    <label for="nome"><strong>Nome</strong></label>
+                    <input type="text" name="nome" id="nome" required>
+               
+         </div>
+           <div class="campo">
+                    <label for="sobrenome"><strong>Sobrenome</strong></label>
+                    <input type="text" name="sobrenome" id="sobrenome" required>
+                </fieldset>
+
+                <div class="campo">
+                    <label for="email"><strong>Email</strong></label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="campo">
+                    <label ><strong>De qual lado da aplicação você desenvolve</strong></label>
+                    <label>
+                        <input type="radio" name="devweb" value="frontend" checked>
+                        front-end
+                    </label>
+                    <label>
+                        <input type="radio" name="devweb" value="backend">
+                        Back-end
+                    </label>
+
+                    <label>
+                        <input type="radio" name="devweb" value="fullstack">
+                        fullstack
+                    </label>
+                </div>
+
+                <div class="campo">
+                    <label for="senioridade"><strong>Senioridade</strong></label>
+                    <select id="senioridade" name="senioridade" required>
+                    <option selected disabled value="">Selecione</option>
+                    <option value="Junior">Junior</option>
+                    <option value="pleno">Pleno</option>
+                    <option value="senior">Sênior</option>
+                    </select>
+
+                </div>
+
+            <fieldset class="grupo">
+                <legend><strong>Selecione as tecnologias que utiliza:</strong></legend>
+                <label >
+                <input type="checkbox" name="tecnologias" value="html">
+                HTML
+                </label>
+                <label>
+                <input type="checkbox" name="tecnologias" value="css">
+                CSS
+                </label>
+                <label >
+                    <input type="checkbox" name="tecnologias" value="javascript">
+                    Javascript
+                </label>
+                <label >
+                    <input type="checkbox" name="tecnologias" value="php">
+                    PHP
+                </label>
+                <label >
+                    <input type="checkbox" name="tecnologias" value="C#">
+                    C#
+                </label>
+                <label >
+                    <input type="checkbox" name="tecnologias" value="python">
+                    PYTHON
+                </label>
+                <label >
+                    <input type="checkbox"  name="tecnologias" value="java">
+                    JAVA
+                </label>
+            </fieldset>
+            <div class="campo">
+                <label for="experiencia"><strong>Conte um pouco sobre su experiencia profissional</strong></label>
+                <textarea name="experiencia" id="experiencia" rows="6" cols="47" placeholder="Descreva sua experiencia profissional"></textarea>
+
+            </div>
+            <div class="button">
+                <button  class="button" type="submit">Concluido</button>
+            </div>
+        </form>
+           
+    </main>
+    <footer class="footer-center">
+        <p>&copy;2026 Cadastro de desenvolvedores, todos os direitos reservados</p>
+    </footer>
+</body>
+</html>

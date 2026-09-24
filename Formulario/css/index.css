@@ -1,0 +1,23 @@
+:root{
+    --cor-primaria:#380B61;
+    --cor-secundaria:#59429d;
+    --cor-hover:#CCBBFF;
+    --cor-fundo:#F0F8FF;
+    --cor-fomulario:#E6E6FA;
+    --cor-focus:#E0E0F8;
+
+    --espacamento-pequeno:0.5cm;
+    --espacamento-médio:1cm;
+    --espacamento-grande:1,5cm;
+
+    --tamanho-max-form:500px;
+    --tamanho-max-main:600px;
+    --raio-borda:10px;
+
+    #titulo{
+        font-family: sans-serif;
+        color: var(--cor-primaria);
+        text-align: center;
+        margin: 0 auto 0.5cm;
+    }
+}
